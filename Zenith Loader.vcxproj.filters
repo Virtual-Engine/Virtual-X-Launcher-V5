@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{a24b174d-1c61-4db7-89ed-23596ccc2ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{9b0074df-81f2-4930-9b69-09178c6b4bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\STB">
+      <UniqueIdentifier>{be2b28fe-30d5-48c2-b970-95b3900eab95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{8eacd46c-1bec-4e3b-8d88-9233d596b66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\shader">
+      <UniqueIdentifier>{fb36c146-d919-40f0-ac73-64ea427faa75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{c1558ff4-dbcd-420f-a595-a8f26b32a707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\Script">
+      <UniqueIdentifier>{4c55df27-9dc4-468b-a30b-eab783dea4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="services">
+      <UniqueIdentifier>{d4b85cf0-f05e-403c-ad55-f7cf43864c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="services\threads">
+      <UniqueIdentifier>{3a316c2d-8331-496f-b7b2-53cdf04c0ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord">
+      <UniqueIdentifier>{9f4feafb-81e9-456a-9e1f-794f1970c504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord\Backend">
+      <UniqueIdentifier>{6327471f-0b99-4482-b8b2-17f9416aac09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="backend">
+      <UniqueIdentifier>{cd84330d-ce24-4fb6-be33-d735b8c5fa79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="STB\STBImage.hpp">
+      <Filter>util\STB</Filter>
+    </ClInclude>
+    <ClInclude Include="STB\STBImageWrite.hpp">
+      <Filter>util\STB</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderer.hpp">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="common.hpp" />
+    <ClInclude Include="renderer\shader\shader.hpp">
+      <Filter>renderer\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\interface.hpp">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="services\threads\threads_pool.hpp">
+      <Filter>services\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\Backend\Handler.hpp">
+      <Filter>Discord\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\Backend\Register.hpp">
+      <Filter>Discord\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\Backend\rpc.h">
+      <Filter>Discord\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\backend.hpp">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="fiber\fiber.hpp" />
+    <ClInclude Include="fiber\manager.hpp" />
+    <ClInclude Include="fiber\queue.hpp" />
+    <ClInclude Include="core\core.hpp" />
+    <ClInclude Include="services\injection\injection.hpp" />
+    <ClInclude Include="services\injection\registry.hpp" />
+    <ClInclude Include="interface\element.hpp" />
+    <ClInclude Include="renderer\shader\logo.hpp" />
+    <ClInclude Include="interface\spinner.hpp" />
+    <ClInclude Include="services\injection\manual_map.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="entrypoint.cpp" />
+    <ClCompile Include="renderer\renderer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\shader\shader.cpp">
+      <Filter>renderer\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="interface\interface.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="services\threads\threads_pool.cpp">
+      <Filter>services\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\Discord.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="backend\backend.cpp">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClCompile Include="fiber\manager.cpp" />
+    <ClCompile Include="core\core.cpp" />
+    <ClCompile Include="services\injection\injection.cpp" />
+  </ItemGroup>
+</Project>
